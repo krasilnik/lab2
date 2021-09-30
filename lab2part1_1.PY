@@ -23,9 +23,11 @@ class Rectangle:
 
 	def perimeter(self):
 		p = 2*(self.__width + self.__length)
+		return p
 
 	def area(self):
 		s = self.__width * self.__length
+		return s
 
 	def display_info(self):
 		print("Length:", self.__length, "\tWidth:", self.__width, "\tArea:", s, "\tPerimeter:", p)
