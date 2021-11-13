@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+
 #Create a class that describes a Product of online store.
 # As a Product fields you can use a price, description
 # and product' dimensions.
@@ -69,6 +69,3 @@ product_3 = Product(10, "keyboards", 3)
 product_4 = Product(1, "keyboards", 48)
 order = Order(fresh_customer, product1=product_1, product2=product_2, product3=product_3, product4=product_4)
 print(order)
-
-# print(product_1)
-# print(fresh_customer)
